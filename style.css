@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#meu-nome {
+    color: #007bff;
+    text-align: center;
+}
+
+#bio {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#hobbies {
+    line-height: 1.6;
+}
+
+#imagem-hobby {
+    border-radius: 10px;
+    width: 300px;       /* Tamanho fixo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    max-width: 100%;   /* Responsivo */
+}
+
+#paises {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#paises, #paises th, #paises td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#paises th {
+    background-color: #007bff;
+    color: white;
+}
+
+#paises img {
+    width: 100px;      /* Tamanho fixo */
+    height: auto;
+    border: none;
+    vertical-align: middle;
+    max-width: 80%;   /* Responsivo */
+}
+
+#link-interesse {
+    color: #000;
+    text-decoration: none;
+}
+
+#link-interesse:hover {
+    color: #ff6f61;
+}
+
+#botao-mensagem {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Alterado para block */
+    margin: 10px auto; /* Adicionado para centralizar */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#mensagem {
+    font-style: italic;
+    color: #777;
+    margin: 10px auto; /* Centraliza horizontalmente */
+    width: 80%; /* Opcional: Limita a largura para melhor legibilidade */
+    text-align: center; /* Opcional: Centraliza o texto dentro do parágrafo */
+}
